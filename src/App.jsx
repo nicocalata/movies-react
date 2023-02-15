@@ -1,4 +1,3 @@
-import { MoviesGrid } from "./components/MoviesGrid";
 import styles from './components/App.module.css'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { MovieDedails } from "./pages/MovieDedails";
