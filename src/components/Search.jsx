@@ -1,6 +1,7 @@
 import styles from "./Search.module.css"
 import { FaSearch } from 'react-icons/fa'
-import { useHistory, useQuery} from "react-router-dom"
+import { useHistory } from "react-router-dom"
+import { useQuery } from "../hooks/useQuery"
 
 export function Search() {
   const query = useQuery();
